@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+a,p{
+    font-size: larger;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 70px;
+    justify-content: space-between;
+}
+.navbar a{
+     color: black;
+     text-decoration: none;
+     padding: 20px;
+        
+}
+
+.getstarted{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 70px;  
+}
+.getstarted button{
+    width: 170px;
+    padding: 10px;
+    background-color:  #3366ff;
+    color: white;
+    font-size: larger;
+    border: none;
+    box-shadow: 1px 1px #8c8c8c;
+    border-radius: 6px;
+}
+.getstarted button:hover{
+    width: 175px;
+}
+.getstarted input{
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    color:black;
+    font-size: larger;
+    border: none;
+    border: 1px solid  #a6a6a6;
+    border-radius: 6px;
+}
+.getstarted input:focus{
+background-color:grey;
+color:white;
+}
+.centercurve{
+    margin-top: 100px;
+}
+.stayproductive{
+    padding: 10px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+   
+}
+.testimonial{
+    margin-top: 30px;
+    padding: 10px;
+    padding-right: 0px;
+    background-color:  #f2f2f2;
+    border-radius: 7px;
+    box-shadow: 1px 2px #cccccc;
+    height:330px;
+    width: 33%;
+    width: auto;
+    border: 1px solid #cccccc;
+    font-size: medium;
+}
+.testimonial p{
+    font-size: medium;
+    letter-spacing: 2px;
+}
+.ceoinfo{
+    float: left;
+    flex-direction: row; 
+}
+.signupbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+    padding-right: 300px;
+    background-color:  #7979d2;
+    color:  #e6e6e6;
+    font-weight: normal;
+}
+.signupbarform input{ 
+    width: 270px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:black;
+    font-size: larger;
+    border: none;
+   
+    border-radius: 6px;
+}
+.signupbar button{
+    width: 230px;
+    padding: 10px;
+    background-color:  #3366ff;
+    color: white;
+    font-size: larger;
+    border: none;
+    border-radius: 6px;  
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px;
+    background-color:  #000066;
+    color:  #b3b3b3;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer img{
+    border-radius: 5px;
+    padding-right: 5px;
+}
